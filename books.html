@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="books.js"></script>
+    <title>Books</title>
+  </head>
+  <body>
+    <h1>Books</h1>
+    <h2>List of Books</h2>
+    <table id="bookTableId">
+      <thead>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Number of pages</th>
+        <th>Read</th>
+      </thead>
+      <tbody id="tbodyBookListId"></tbody>
+    </table>
+    <br />
+    <br />
+    <form>
+      <input
+        id="titleInputId"
+        type="text"
+        placeholder="Title"
+        name="titleInput"
+      />
+      <input
+        id="authorInputId"
+        type="text"
+        placeholder="Author"
+        name="authorInput"
+      />
+      <input
+        id="pageNumberInputId"
+        type="text"
+        placeholder="Number of pages"
+        name="pageNumberInput"
+      />
+      <input id="readInputId" type="checkbox" name="readInput" /><label
+        >Read</label
+      ><br />
+      <br />
+      <label><input type="submit" id="addBookBtn" /></label>
+      <br />
+    </form>
+  </body>
+</html>
